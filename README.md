@@ -7,7 +7,7 @@ A full-stack web application built with the **MERN** stack (MongoDB, Express.js,
 ---
 
 ## 🔗 Live Demo 
-https://school-management-system-zzw9.vercel.app/
+ https://school-management-system-zzw9.vercel.app/
 ---
 
 ## 🚀 Features
