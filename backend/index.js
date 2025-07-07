@@ -21,7 +21,7 @@ app.use(express.json({ limit: '10mb' }));
 
 //================= CORS Configuration ===============
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:3001"], // allow frontend ports
+  origin: ["https://school-management-system-zzw9.vercel.app"], // allow frontend ports
   credentials: true
 }));
 
