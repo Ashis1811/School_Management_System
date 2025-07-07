@@ -36,7 +36,7 @@ export const registerUser = (fields, role) => async (dispatch) => {
     dispatch(authRequest());
 
     try {
-        const result = await axios.post(`${process.env.REACT_APP_BASE_URL}/${role}Reg`, fields, {
+        const result = await axios.post(`${process.env.REACT_APP_BASE_URL}/${role.toLowerCase()}Reg`, fields, {
             headers: { 'Content-Type': 'application/json' },
         });
         if (result.data.schoolName) {
