@@ -9,8 +9,10 @@ A full-stack web application built with the **MERN** stack (MongoDB, Express.js,
 ## 🔗 Live Demo 
  (https://school-management-system-r13k.onrender.com)
 ---
-
-## 🚀 Features
+## For admin login:
+Id: ashis@gmail.com
+Password: Ashis@1811
+##  Features
 
 ### 👤 User Roles
 
