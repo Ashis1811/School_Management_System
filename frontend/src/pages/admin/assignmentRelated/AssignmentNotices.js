@@ -31,7 +31,7 @@ const AssignmentNotices = () => {
           <Paper key={assignment._id} sx={{ p: 2, mb: 2, background: '#f5f5f5' }}>
             <Typography variant="h6">{assignment.title}</Typography>
             <Typography variant="body2" color="text.secondary">
-              Uploaded by: {assignment.role} — {new Date(assignment.createdAt).toLocaleString()}
+              Uploaded by: {assignment.uploadedBy} ({assignment.role}) — {new Date(assignment.createdAt).toLocaleString()}
             </Typography>
             <Typography variant="body1" sx={{ mt: 1 }}>
               {assignment.description}
