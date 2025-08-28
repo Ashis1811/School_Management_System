@@ -31,7 +31,7 @@ const ShowAssignments = () => {
           <Paper key={assignment._id} sx={{ p: 2, mb: 2, position: 'relative' }}>
             <Typography variant="h6">{assignment.title}</Typography>
             <Typography variant="body2" color="textSecondary" sx={{ mb: 1 }}>
-              Uploaded by: {assignment.role} — {new Date(assignment.createdAt).toLocaleString()}
+              Uploaded by: {assignment.uploadedBy} ({assignment.role}) — {new Date(assignment.createdAt).toLocaleString()}
             </Typography>
             <Typography variant="body1">{assignment.description}</Typography>
           </Paper>
