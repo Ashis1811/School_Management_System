@@ -21,7 +21,7 @@ app.use(express.json({ limit: '10mb' }));
 
 //================= CORS Configuration ===============
 app.use(cors({
-  origin: ["https://school-management-system-r13k.onrender.com"], // allow frontend ports
+  origin: ["http://localhost:3000"], // allow frontend ports
   credentials: true
 }));
 
